@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+  <div align="center">
+<form>
+  <label for="name">Name:</label>
+  <input type="name" id ="name" name="name"  placeholder="name" maxlength="25" required><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"  value="test@example.com" required autofocus><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" minlength="6" required><br><br>
+  <label for="category">Category</label>
+    <select id="Category" name="category" required>
+    <option value="student">student</option>
+    <option value="employee" >employee</option>
+    <option value="freelencer" selected>freelencer</option>
+  </select><br><br>
+  <label for="eventdate"> Event date</label>
+  <input type="date" name="Startdate" required><br><br>
+  <label for="tickets">Tickets:</label>
+    <input type="radio"name="subject" value="tickets 1"required>tickets1
+    <input type="radio"name="subject" value="tickets 2" checked required>tickets2
+    <input type="radio"name="subject" value="tickets 3" required>tickets3<br><br>
+    <label for="payment">Payment:</label>
+    <input type="checkbox" name="payment"value="onl"  required>online payment<br><br>
+    <label>Notes:</label> 
+         <br>
+         <textarea rows = "5" cols = "50" name = "description" placeholder="notes"></textarea><br><br>
+         <input type = "submit" value = "submit" value="submit">
+         <input type="reset" name="reset" value="reset">
+</form>
+</div>
+</body>
+</html>
